@@ -75,7 +75,8 @@ body {
   text-transform: uppercase;
 }
 
-.button {
+.hero-button {
+  font-family: Roboto, sans-serif;
   background-color: var(--main-accent-color);
   color: var(--main-white-color);
   font-weight: 700;
@@ -87,8 +88,8 @@ body {
   text-align: center;
 }
 
-.button:hover,
-.button:focus {
+.hero-button:hover,
+.hero-button:focus {
   color: #000000;
   cursor: pointer;
 }
@@ -159,4 +160,41 @@ footer {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--main-white-color);
+}
+
+/* -------------------------Страница портфолио------------------------------ */
+
+/* Кнопки фильтра работ */
+
+.filter-button {
+  font-family: Roboto, sans-serif;
+  color: var(--secondary-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--main-white-color);
+  background-color: var(--main-accent-color);
+}
+
+/* Примеры работ */
+
+.example-name {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.example-type {
+  font-size: 16px;
+  line-height: 1.87;
 }
